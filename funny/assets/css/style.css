@@ -6,13 +6,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(to right, #d8e0ff, #fdf1f1);
+    background-image: url(../images/$_57.jpg);
+    background-size: contain;
 }
 
 /* Header */
 header {
-    background-color: rgb(30, 26, 136);
-    color: #F5F5F5;
+    background-color: #222;
+    color: white;
     text-align: center;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -36,7 +37,10 @@ main {
     text-align: center;
     width: 80%;
     margin: auto;
-    font-weight:400;
+    font-weight:200;
+    line-height: 40px;
+    color: white;
+    background-color: rgb(34, 34, 34, 0.3);
 }
 
 .search-box {
