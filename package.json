@@ -1,0 +1,14 @@
+{
+  "name": "inm420-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir=\"funny\""
+  },
+  "author": "Dana Sadek",
+  "license": "private",
+  "private":true,
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
